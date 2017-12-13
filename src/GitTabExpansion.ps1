@@ -357,7 +357,7 @@ function GitTabExpansionInternal($lastBlock, $GitStatus = $null) {
             gitMergeFiles $GitStatus $matches['files']
         }
 
-        # Handles git checkout <ref>
+        # Handles git checkout <ref> 
         "^(?:checkout).* (?<ref>\S*)$" {
             gitBranches $matches['ref'] $true
             gitRemoteUniqueBranches $matches['ref']
