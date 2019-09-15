@@ -5,10 +5,6 @@ environment:
   CA_KEY:
     secure: JQtUaB+zduPID8bzI5nfHRc2V6xYJiJp4mTHkE4W6broH8rznT1ypvn5orQ6YcGn
 
-branches:
-  only:
-    - master
-    - v0
 
 init:
   - git config --global core.autocrlf true
