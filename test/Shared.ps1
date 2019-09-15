@@ -1,4 +1,4 @@
-$modulePath = Convert-Path $PSScriptRoot\..\src
+$modulePath = Convert-Path $PSScriptRoot\..\out
 $moduleManifestPath = "$modulePath\posh-git.psd1"
 
 $csi = [char]0x1b + "["
